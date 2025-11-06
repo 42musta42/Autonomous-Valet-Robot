@@ -21,4 +21,4 @@ As requested by our reviewers (II.5), this repository provides the "firmware" an
 
 * `/python-raspberry-pi/`: Contains the Python scripts (`main.py`, `flask_app.py`, etc.) for the Raspberry Pi 5. This code manages the Flask server, communicates with the Arduino via serial, and calls the Roboflow inference API.
 * `/arduino-mega/`: Contains the Arduino (`.ino`) sketch for the Arduino Mega. This code is responsible for all low-level hardware control, including the PID logic for line following, controlling DC motors via H-bridges, and actuating the servo-driven lifting arms.
-* [cite_start]`/matlab-simulation/`: Contains the MATLAB (`.m`) script used to generate the kinematic parking and exit simulations (Figures 7 & 8) presented in the paper [cite: 2863-2865].
+* `/matlab-simulation/`: Contains the MATLAB (`.m`) script used to generate the kinematic parking and exit simulations (Figures 7 & 8) presented in the paper.
