@@ -4,16 +4,16 @@ This repository contains the official source code and firmware for the research 
 
 ## Overview
 
-[cite_start]This project is a functional proof-of-concept for an autonomous valet robot designed to operate in existing parking structures[cite: 2722]. [cite_start]The system integrates a user-facing mobile application, a high-level processor for AI and coordination, and a low-level microcontroller for real-time hardware control [cite: 2781, 2784-2790].
+This project is a functional proof-of-concept for an autonomous valet robot designed to operate in existing parking structures.The system integrates a user-facing mobile application, a high-level processor for AI and coordination, and a low-level microcontroller for real-time hardware control.
 
 ### Key Features
-* [cite_start]**Mobile Application:** A Flutter-based app for user registration and parking/retrieval requests[cite: 2822].
+* **Mobile Application:** A Flutter-based app for user registration and parking/retrieval requests[cite: 2822].
 * **Dual-Controller System:**
-    * [cite_start]**Raspberry Pi 5 (Python):** Runs a Flask server to communicate with the app, coordinates high-level tasks, and performs computer vision inference[cite: 2786, 2796].
-    * [cite_start]**Arduino Mega (C++):** Handles all real-time, low-level hardware control, including motor drivers, IR line-following sensors, and servo actuation[cite: 2790, 2800].
+    * **Raspberry Pi 5 (Python):** Runs a Flask server to communicate with the app, coordinates high-level tasks, and performs computer vision inference.
+    * **Arduino Mega (C++):** Handles all real-time, low-level hardware control, including motor drivers, IR line-following sensors, and servo actuation.
 * **Computer Vision:** Uses the Roboflow API for two key tasks:
-    1.  [cite_start]Real-time **Arabic License Plate Recognition (LPR)** [cite: 2729-2735].
-    2.  [cite_start]**Parking Spot Detection** [cite: 2736-2742].
+    1.  Real-time **Arabic License Plate Recognition (LPR)**.
+    2.  **Parking Spot Detection**.
 
 ## Repository Structure (Firmware Details)
 
